@@ -17,9 +17,9 @@ class Dog
   end
   
   def self.print_all
-    @@all.map do |key|
-      puts key
-    end
+    puts @@all.map {|key| key}
+     
+    
   end
   
 end
